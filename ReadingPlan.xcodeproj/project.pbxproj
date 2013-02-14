@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0309677137EA5B9008E9317 /* BiblicalTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0309675137EA5B9008E9317 /* BiblicalTextViewController.m */; };
+		A0309678137EA5B9008E9317 /* BiblicalTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0309676137EA5B9008E9317 /* BiblicalTextView.xib */; };
+		A0309680137EBDF0008E9317 /* bibleTextStyle.css in Resources */ = {isa = PBXBuildFile; fileRef = A030967F137EBDF0008E9317 /* bibleTextStyle.css */; };
+		A0309682137EBE06008E9317 /* bibleTextHtmlHeader.html in Resources */ = {isa = PBXBuildFile; fileRef = A0309681137EBE05008E9317 /* bibleTextHtmlHeader.html */; };
+		A032FD9F1434955E00EBD91D /* leftArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A032FD9D1434955E00EBD91D /* leftArrow.png */; };
+		A032FDA01434955E00EBD91D /* rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A032FD9E1434955E00EBD91D /* rightArrow.png */; };
+		A04627F313790E390061BA91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04627F213790E390061BA91 /* UIKit.framework */; };
+		A04627F513790E390061BA91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04627F413790E390061BA91 /* Foundation.framework */; };
+		A04627F713790E390061BA91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04627F613790E390061BA91 /* CoreGraphics.framework */; };
+		A04627FD13790E390061BA91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A04627FB13790E390061BA91 /* InfoPlist.strings */; };
+		A046280013790E390061BA91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A04627FF13790E390061BA91 /* main.m */; };
+		A046280313790E390061BA91 /* Reading_PlanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A046280213790E390061BA91 /* Reading_PlanAppDelegate.m */; };
+		A046280613790E390061BA91 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A046280413790E390061BA91 /* MainWindow.xib */; };
+		A046280913790E390061BA91 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A046280813790E390061BA91 /* RootViewController.m */; };
+		A046280C13790E390061BA91 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A046280A13790E390061BA91 /* RootViewController.xib */; };
+		A046281C13790F0E0061BA91 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A046281B13790F0E0061BA91 /* DataSource.m */; };
+		A088EA6114380083005BBA45 /* Bible-320x390.png in Resources */ = {isa = PBXBuildFile; fileRef = A088EA5914380083005BBA45 /* Bible-320x390.png */; };
+		A088EA6314380083005BBA45 /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = A088EA5B14380083005BBA45 /* Icon-iPad.png */; };
+		A088EA6414380083005BBA45 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A088EA5C14380083005BBA45 /* Icon-Small-50.png */; };
+		A088EA6514380083005BBA45 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = A088EA5D14380083005BBA45 /* Icon-Small.png */; };
+		A088EA6614380083005BBA45 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A088EA5E14380083005BBA45 /* Icon-Small@2x.png */; };
+		A088EA6714380083005BBA45 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A088EA5F14380083005BBA45 /* Icon.png */; };
+		A088EA6814380083005BBA45 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A088EA6014380083005BBA45 /* Icon@2x.png */; };
+		A095D9A614300CA300A7D8F4 /* InterfaceDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = A095D9A514300CA300A7D8F4 /* InterfaceDetails.m */; };
+		A0A9106314B326FB00D843E1 /* DataSourceHorner.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A9106214B326FB00D843E1 /* DataSourceHorner.m */; };
+		A0DEEA061435C2650002C947 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DEEA041435C2650002C947 /* InfoViewController.m */; };
+		A0DEEA071435C2650002C947 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DEEA051435C2650002C947 /* InfoView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0309674137EA5B9008E9317 /* BiblicalTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiblicalTextViewController.h; sourceTree = "<group>"; };
+		A0309675137EA5B9008E9317 /* BiblicalTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiblicalTextViewController.m; sourceTree = "<group>"; };
+		A0309676137EA5B9008E9317 /* BiblicalTextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BiblicalTextView.xib; sourceTree = "<group>"; };
+		A030967F137EBDF0008E9317 /* bibleTextStyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bibleTextStyle.css; sourceTree = "<group>"; };
+		A0309681137EBE05008E9317 /* bibleTextHtmlHeader.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bibleTextHtmlHeader.html; sourceTree = "<group>"; };
+		A032FD9D1434955E00EBD91D /* leftArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftArrow.png; sourceTree = "<group>"; };
+		A032FD9E1434955E00EBD91D /* rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow.png; sourceTree = "<group>"; };
+		A04627EE13790E390061BA91 /* ReadingPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadingPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04627F213790E390061BA91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A04627F413790E390061BA91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A04627F613790E390061BA91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A04627FA13790E390061BA91 /* ReadingPlan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReadingPlan-Info.plist"; sourceTree = "<group>"; };
+		A04627FC13790E390061BA91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A04627FE13790E390061BA91 /* ReadingPlan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReadingPlan-Prefix.pch"; sourceTree = "<group>"; };
+		A04627FF13790E390061BA91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A046280113790E390061BA91 /* Reading_PlanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reading_PlanAppDelegate.h; sourceTree = "<group>"; };
+		A046280213790E390061BA91 /* Reading_PlanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reading_PlanAppDelegate.m; sourceTree = "<group>"; };
+		A046280513790E390061BA91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A046280713790E390061BA91 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A046280813790E390061BA91 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A046280B13790E390061BA91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		A046281A13790F0E0061BA91 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		A046281B13790F0E0061BA91 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		A088EA5914380083005BBA45 /* Bible-320x390.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bible-320x390.png"; sourceTree = "<group>"; };
+		A088EA5B14380083005BBA45 /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad.png"; sourceTree = "<group>"; };
+		A088EA5C14380083005BBA45 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		A088EA5D14380083005BBA45 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		A088EA5E14380083005BBA45 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		A088EA5F14380083005BBA45 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A088EA6014380083005BBA45 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A095D9A414300CA200A7D8F4 /* InterfaceDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceDetails.h; sourceTree = "<group>"; };
+		A095D9A514300CA300A7D8F4 /* InterfaceDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceDetails.m; sourceTree = "<group>"; };
+		A0A9106114B326FB00D843E1 /* DataSourceHorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSourceHorner.h; sourceTree = "<group>"; };
+		A0A9106214B326FB00D843E1 /* DataSourceHorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSourceHorner.m; sourceTree = "<group>"; };
+		A0DEEA031435C2650002C947 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		A0DEEA041435C2650002C947 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		A0DEEA051435C2650002C947 /* InfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A04627EB13790E390061BA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04627F313790E390061BA91 /* UIKit.framework in Frameworks */,
+				A04627F513790E390061BA91 /* Foundation.framework in Frameworks */,
+				A04627F713790E390061BA91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A030967A137EA5CA008E9317 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				A046280413790E390061BA91 /* MainWindow.xib */,
+				A046280A13790E390061BA91 /* RootViewController.xib */,
+				A0309676137EA5B9008E9317 /* BiblicalTextView.xib */,
+				A0DEEA051435C2650002C947 /* InfoView.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+		A04627E313790E390061BA91 = {
+			isa = PBXGroup;
+			children = (
+				A04627F813790E390061BA91 /* Reading Plan */,
+				A04627F113790E390061BA91 /* Frameworks */,
+				A04627EF13790E390061BA91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A04627EF13790E390061BA91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A04627EE13790E390061BA91 /* ReadingPlan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A04627F113790E390061BA91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A04627F213790E390061BA91 /* UIKit.framework */,
+				A04627F413790E390061BA91 /* Foundation.framework */,
+				A04627F613790E390061BA91 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A04627F813790E390061BA91 /* Reading Plan */ = {
+			isa = PBXGroup;
+			children = (
+				A046280113790E390061BA91 /* Reading_PlanAppDelegate.h */,
+				A046280213790E390061BA91 /* Reading_PlanAppDelegate.m */,
+				A046280713790E390061BA91 /* RootViewController.h */,
+				A046280813790E390061BA91 /* RootViewController.m */,
+				A0309674137EA5B9008E9317 /* BiblicalTextViewController.h */,
+				A0309675137EA5B9008E9317 /* BiblicalTextViewController.m */,
+				A0DEEA031435C2650002C947 /* InfoViewController.h */,
+				A0DEEA041435C2650002C947 /* InfoViewController.m */,
+				A095D9A414300CA200A7D8F4 /* InterfaceDetails.h */,
+				A095D9A514300CA300A7D8F4 /* InterfaceDetails.m */,
+				A030967A137EA5CA008E9317 /* XIB */,
+				A04627F913790E390061BA91 /* Supporting Files */,
+			);
+			path = "Reading Plan";
+			sourceTree = "<group>";
+		};
+		A04627F913790E390061BA91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A046281A13790F0E0061BA91 /* DataSource.h */,
+				A046281B13790F0E0061BA91 /* DataSource.m */,
+				A0A9106114B326FB00D843E1 /* DataSourceHorner.h */,
+				A0A9106214B326FB00D843E1 /* DataSourceHorner.m */,
+				A04627FA13790E390061BA91 /* ReadingPlan-Info.plist */,
+				A04627FB13790E390061BA91 /* InfoPlist.strings */,
+				A04627FE13790E390061BA91 /* ReadingPlan-Prefix.pch */,
+				A04627FF13790E390061BA91 /* main.m */,
+				A0309681137EBE05008E9317 /* bibleTextHtmlHeader.html */,
+				A030967F137EBDF0008E9317 /* bibleTextStyle.css */,
+				A088EA5914380083005BBA45 /* Bible-320x390.png */,
+				A088EA5B14380083005BBA45 /* Icon-iPad.png */,
+				A088EA5C14380083005BBA45 /* Icon-Small-50.png */,
+				A088EA5D14380083005BBA45 /* Icon-Small.png */,
+				A088EA5E14380083005BBA45 /* Icon-Small@2x.png */,
+				A088EA5F14380083005BBA45 /* Icon.png */,
+				A088EA6014380083005BBA45 /* Icon@2x.png */,
+				A032FD9D1434955E00EBD91D /* leftArrow.png */,
+				A032FD9E1434955E00EBD91D /* rightArrow.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A04627ED13790E390061BA91 /* ReadingPlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A046280F13790E390061BA91 /* Build configuration list for PBXNativeTarget "ReadingPlan" */;
+			buildPhases = (
+				A04627EA13790E390061BA91 /* Sources */,
+				A04627EB13790E390061BA91 /* Frameworks */,
+				A04627EC13790E390061BA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadingPlan;
+			productName = "Reading Plan";
+			productReference = A04627EE13790E390061BA91 /* ReadingPlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A04627E513790E390061BA91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A04627E813790E390061BA91 /* Build configuration list for PBXProject "ReadingPlan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A04627E313790E390061BA91;
+			productRefGroup = A04627EF13790E390061BA91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A04627ED13790E390061BA91 /* ReadingPlan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A04627EC13790E390061BA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04627FD13790E390061BA91 /* InfoPlist.strings in Resources */,
+				A046280613790E390061BA91 /* MainWindow.xib in Resources */,
+				A046280C13790E390061BA91 /* RootViewController.xib in Resources */,
+				A0309678137EA5B9008E9317 /* BiblicalTextView.xib in Resources */,
+				A0309680137EBDF0008E9317 /* bibleTextStyle.css in Resources */,
+				A0309682137EBE06008E9317 /* bibleTextHtmlHeader.html in Resources */,
+				A032FD9F1434955E00EBD91D /* leftArrow.png in Resources */,
+				A032FDA01434955E00EBD91D /* rightArrow.png in Resources */,
+				A0DEEA071435C2650002C947 /* InfoView.xib in Resources */,
+				A088EA6114380083005BBA45 /* Bible-320x390.png in Resources */,
+				A088EA6314380083005BBA45 /* Icon-iPad.png in Resources */,
+				A088EA6414380083005BBA45 /* Icon-Small-50.png in Resources */,
+				A088EA6514380083005BBA45 /* Icon-Small.png in Resources */,
+				A088EA6614380083005BBA45 /* Icon-Small@2x.png in Resources */,
+				A088EA6714380083005BBA45 /* Icon.png in Resources */,
+				A088EA6814380083005BBA45 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A04627EA13790E390061BA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A046280013790E390061BA91 /* main.m in Sources */,
+				A046280313790E390061BA91 /* Reading_PlanAppDelegate.m in Sources */,
+				A046280913790E390061BA91 /* RootViewController.m in Sources */,
+				A046281C13790F0E0061BA91 /* DataSource.m in Sources */,
+				A0309677137EA5B9008E9317 /* BiblicalTextViewController.m in Sources */,
+				A095D9A614300CA300A7D8F4 /* InterfaceDetails.m in Sources */,
+				A0DEEA061435C2650002C947 /* InfoViewController.m in Sources */,
+				A0A9106314B326FB00D843E1 /* DataSourceHorner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A04627FB13790E390061BA91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A04627FC13790E390061BA91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A046280413790E390061BA91 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A046280513790E390061BA91 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A046280A13790E390061BA91 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A046280B13790E390061BA91 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A046280D13790E390061BA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sam Freney";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "31049108-83A6-4704-AEB4-9E450313CB20";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A046280E13790E390061BA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sam Freney";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "31049108-83A6-4704-AEB4-9E450313CB20";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A046281013790E390061BA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sam Freney (A8XMN3FXY2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sam Freney (A8XMN3FXY2)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reading Plan/ReadingPlan-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Reading Plan/ReadingPlan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = ReadingPlan;
+				PROVISIONING_PROFILE = "10D41A4A-AB39-4D09-BD81-ED2B308B1C9B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "10D41A4A-AB39-4D09-BD81-ED2B308B1C9B";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A046281113790E390061BA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sam Freney";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sam Freney";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reading Plan/ReadingPlan-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Reading Plan/ReadingPlan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = ReadingPlan;
+				PROVISIONING_PROFILE = "B17AF406-5B8D-41C2-9F35-FA24B13E61CF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B17AF406-5B8D-41C2-9F35-FA24B13E61CF";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A04627E813790E390061BA91 /* Build configuration list for PBXProject "ReadingPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A046280D13790E390061BA91 /* Debug */,
+				A046280E13790E390061BA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A046280F13790E390061BA91 /* Build configuration list for PBXNativeTarget "ReadingPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A046281013790E390061BA91 /* Debug */,
+				A046281113790E390061BA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A04627E513790E390061BA91 /* Project object */;
+}
